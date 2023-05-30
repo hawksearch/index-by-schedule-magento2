@@ -1,0 +1,18 @@
+{
+    "name": "hawksearch/index-by-schedule-magento2",
+    "license": "proprietary",
+    "description": "Module fixes reindexing of removed items in 'By Schedule' indexing mode",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "require": {
+        "magento/magento2-base": "~2.3.5|~2.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "HawkSearch\\IndexBySchedule\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
